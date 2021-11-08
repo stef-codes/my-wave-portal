@@ -1,4 +1,4 @@
-const Main = async () => {
+const main = async () => {
     const [deployer] = await hre.ethers.getSigners(); 
     const accountBalance = await deployer.getBalance(); 
 
